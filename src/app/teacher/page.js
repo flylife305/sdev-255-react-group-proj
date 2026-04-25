@@ -1,4 +1,4 @@
-// "use client";
+//"use client";
 
 export default function TeacherPage(){
         async function submitForm(FormData) {
@@ -12,7 +12,16 @@ export default function TeacherPage(){
         
         return formFields;
     }
-    
+
+    function handleClick() {
+        alert("Build course clicked");
+      }
+
+      function handleSubmit() {
+        alert("Submit button clicked!");
+      }
+
+
     var instructorName = "Dr. Rodriguez"
 
     return(
@@ -54,6 +63,7 @@ export default function TeacherPage(){
                 <div className= "py-5">
                     {/* courses in my catalog */}
                     {/* this can be represented with a tble instead of buttons again */}
+                
                 <table className="w-full border-collapse">
                     <thead>
                     <tr>

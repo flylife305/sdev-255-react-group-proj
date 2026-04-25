@@ -28,8 +28,6 @@ export default function StudentPage() {
         Build a course
       </button>
 
-      <Courses/>
-
       <table className="w-full border-collapse">
         <thead>
           <tr>

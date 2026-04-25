@@ -31,7 +31,7 @@ export function LoadStudent () {
   <>
     <Link href="/" className="bg-blue-400 px-8">Home</Link>
     <Link href="/login" className="bg-yellow-400 px-8">Login</Link>
-    <Link href="/student" className="bg-pink-400  px-8">Student Page</Link>
+    
   </>)
 }
 function Courses() {
@@ -63,8 +63,9 @@ export default function RootLayout({ children }) {
           <nav className="flex items-center justify-center border">
             <Link href="/"      className="bg-blue-400 text-2xl px-8 py-5">Home</Link>
             <Link href="/login" className="bg-yellow-400  text-2xl px-8 py-5">Login</Link>
-           <LoadStudent/>
-           <LoadTeacher/>
+            <Link href="/student" className="bg-pink-400  px-8">Student Page</Link>
+            <Link href="/teacher" className="bg-red-400 px-8">Course Instructor Page</Link>
+           
           </nav>
         </div>
         <div className="flex justify-center text-xl px-5">
