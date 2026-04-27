@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { CourseCodeInput } from "@/app/components/CourseCodeInput";
-import DataTable from "@/app/components/DataTable";
+import  DataTable  from "@/app/components/DataTable";
 
 export default function Page() {
   const [student] = useState("alex"); //removed setStudent, alex is being used a placeholder name
